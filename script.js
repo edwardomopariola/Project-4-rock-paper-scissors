@@ -14,7 +14,7 @@ const playerWins = playerChoice => {
         (playerChoice === "paper" && computerChoice === "rock") ||
         (playerChoice === "scissors" && computerChoice === "paper")
     );
-}
+};
 
 const play = playerChoice => {
     
@@ -35,7 +35,7 @@ const play = playerChoice => {
 
     random = Math.floor(Math.random() * 3);
     computerChoice = choices[random];
-}
+};
 
 rock.addEventListener("click", () => play("rock"));
 paper.addEventListener("click", () => play("paper"));
