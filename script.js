@@ -6,7 +6,6 @@ letplayerchoice = document.getElementById("playerChoice");
 let output = document.getElementById("output");
 let random = Math.floor(Math.random() * 3);
 computerChoice = random
-console.log(computerChoice);
 
 const playerWins = playerChoice => {
     return (
